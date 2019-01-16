@@ -2,7 +2,7 @@
     "name": "vizrex/laravel-cleaner",
     "description": "This a utility package to clean-up temporary files of Laravel applications.",
     "type": "laravel-package",
-    "licsense": "proprietary",
+    "license": "proprietary",
     "authors": [{
         "name": "Vizrex",
         "email": "laravel@vizrex.com"
