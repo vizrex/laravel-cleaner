@@ -2,23 +2,14 @@
     "name": "vizrex/laravel-cleaner",
     "description": "This a utility package to clean-up temporary files of Laravel applications.",
     "type": "laravel-package",
-    "repositories": [{
-        "type": "path",
-        "url": "../laraviz",
-        "options": {
-            "symlink": true
-        }
-    }],
+    "licsense": "proprietary",
     "authors": [{
         "name": "Vizrex",
         "email": "laravel@vizrex.com"
     }],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0.0",
-        "laravel/framework": "5.5.*",
-        "illuminate/support": "~5",
-        "vizrex/laraviz": "dev-master"
+        "vizrex/laraviz": "~1"
     },
     "autoload": {
         "psr-4": {
@@ -30,9 +21,6 @@
             "providers": [
                 "Vizrex\\LaravelCleaner\\LaravelCleanerProvider"
             ]
-        },
-        "branch-alias": {
-            "dev-master": "dev"
         }
     }
 }
